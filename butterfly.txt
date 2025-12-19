@@ -1,0 +1,7 @@
+var bx = 0
+var by = 0
+bx = math.floor(math.sin(time*0.07)*4)-10
+by = math.floor(math.sin(time*0.1)*3)
+>o@bx@,@by@,#white,ï
+?time%3 ! 0
+ >o@bx-1@,@by@,#yellow,ε
