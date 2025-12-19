@@ -21,7 +21,7 @@ len = posArr.Count()
  posArr.Add(playerPos)
 
 func snailDraw()
- ?time % 7 = 0 & len > 1 & foe ! boss
+ ?time % 7 = 0 & len > 1 & (foe ! boss | foe.state > 1)
   posArr.RemoveAt(0)
  var sx = posArr［0］［0］-playerPos［0］-8
  var sy = posArr［0］［1］-playerPos［1］+3
